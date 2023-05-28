@@ -4,3 +4,8 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-family: 'Outfit', sans-serif;
 }
+
+.result {
+    display: grid;
+    grid-template-columns: 50px 1fr auto auto;
+}

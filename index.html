@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/css/style.css"
-  
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./assets/css/style.css" <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <main>
-    <div> <!-- Results Card -->
+    <section> <!-- Results Card -->
       <p>Your Result</p>
       <div> <!-- Results Circle-->
         <h1>76</h1>
@@ -25,50 +32,51 @@
       </div> <!-- /Results Circle-->
       <h2>Great</h2>
       <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </div> <!-- /Results Card -->
+    </section> <!-- /Results Card -->
 
-    <div> <!-- Summary Card -->
+    <section> <!-- Summary Card -->
       <h2>Summary</h2>
 
-      <div> <!--Reaction Result-->
+      <div class = "result"> <!--Reaction Result-->
         <img src="./assets/images/icon-reaction.svg" alt="Reaction heading icon">
-        <span>Reaction</span>
-        <span>80</span>
-        <span> / 100</span>
+        <div>Reaction</div>
+        <div>80</div>
+        <div> / 100</div>
       </div> <!--/Reaction Result-->
 
-      <div> <!--Memory Result-->
+      <div class = "result"> <!--Memory Result-->
         <img src="./assets/images/icon-memory.svg" alt="Memory heading icon">
-        <span>Memory</span>
-        <span>92</span>
-        <span> / 100</span>
+        <div>Memory</div>
+        <div>92</div>
+        <div> / 100</div>
       </div> <!--/Memory Result-->
 
-      <div> <!--Verbal Result-->
+      <div class = "result"> <!--Verbal Result-->
         <img src="./assets/images/icon-verbal.svg" alt="Verbal heading icon">
-        <span>Verbal</span>
-        <span>61</span>
-        <span> / 100</span>
+        <div>Verbal</div>
+        <div>61</div>
+        <div> / 100</div>
       </div> <!--/Verbal Result-->
 
-      <div> <!--Visual Result-->
+      <div class = "result"> <!--Visual Result-->
         <img src="./assets/images/icon-visual.svg" alt="Visual heading icon">
-        <span>Visual</span>
-        <span>72</span>
-        <span> / 100</span>
+        <div>Visual</div>
+        <div>72</div>
+        <div> / 100</div>
       </div> <!--/Visual Result-->
 
       <button type="button">
         Continue
       </button>
 
-    </div> <!-- /Summary Card -->
+    </section> <!-- /Summary Card -->
 
-  </main>  
+  </main>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Richard Deutsch</a>.
   </div>
 </body>
+
 </html>
