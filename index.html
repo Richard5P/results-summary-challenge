@@ -24,7 +24,7 @@
 
 <body>
   <main>
-    <section class = "result"> <!-- Result Card -->
+    <section class="result"> <!-- Result Card -->
       <p>Your Result</p>
       <div> <!-- Result Circle-->
         <h1>76</h1>
@@ -35,35 +35,45 @@
     </section> <!-- /Result Card -->
 
     <section class = "summary"> <!-- Summary Card -->
-      <h2>Summary</h2>
+      <table class = "summary_table"> <!--Summary Table-->
+        <caption><h2>Summary</h2></caption>
 
-      <div class = "summary_group"> <!--Reaction Result-->
-        <img src="./assets/images/icon-reaction.svg" alt="Reaction heading icon">
-        <div>Reaction</div>
-        <div>80</div>
-        <div> / 100</div>
-      </div> <!--/Reaction Result-->
+        <tr class = "hidden"> <!--column headers for accessibility only-->
+          <th>Icon</th>
+          <th>Category</th>
+          <th>Result</th>
+          <th>Out of</th>
+        </tr>
 
-      <div class = "summary_group"> <!--Memory Result-->
-        <img src="./assets/images/icon-memory.svg" alt="Memory heading icon">
-        <div>Memory</div>
-        <div>92</div>
-        <div> / 100</div>
-      </div> <!--/Memory Result-->
+        <tr class="reaction"> <!--Reaction Result-->
+          <td><img src="./assets/images/icon-reaction.svg" alt="Reaction heading icon"></td>
+          <td>Reaction</td>
+          <td>80</td>
+          <td> / 100</td>
+        </tr> <!--/Reaction Result-->
 
-      <div class = "summary_group"> <!--Verbal Result-->
-        <img src="./assets/images/icon-verbal.svg" alt="Verbal heading icon">
-        <div>Verbal</div>
-        <div>61</div>
-        <div> / 100</div>
-      </div> <!--/Verbal Result-->
+        <tr class="memory"> <!--Memory Result-->
+          <td><img src="./assets/images/icon-memory.svg" alt="Memory heading icon"></td>
+          <td>Memory</td>
+          <td>92</td>
+          <td> / 100</td>
+        </tr> <!--/Memory Result-->
 
-      <div class = "summary_group"> <!--Visual Result-->
-        <img src="./assets/images/icon-visual.svg" alt="Visual heading icon">
-        <div>Visual</div>
-        <div>72</div>
-        <div> / 100</div>
-      </div> <!--/Visual Result-->
+        <tr class="verbal"> <!--Verbal Result-->
+          <td><img src="./assets/images/icon-verbal.svg" alt="Verbal heading icon"></td>
+          <td>Verbal</td>
+          <td>61</td>
+          <td> / 100</td>
+        </tr> <!--/Verbal Result-->
+
+        <tr class="summary_group"> <!--Visual Result-->
+          <td><img src="./assets/images/icon-visual.svg" alt="Visual heading icon"></td>
+          <td>Visual</td>
+          <td>72</td>
+          <td> / 100</td>
+        </tr> <!--/Visual Result-->
+
+      </table> <!--/Summary Table-->
 
       <button class="continue" type="button">
         Continue
