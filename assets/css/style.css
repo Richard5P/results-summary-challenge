@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800');
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
 
-body {
+/* housekeeping and variables */
+
+html, body {
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 62.5%; /*sets the base font-size(rem) to 10px so 2.1rem = 21px*/
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .panel {
