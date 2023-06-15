@@ -10,6 +10,7 @@ html, body {
     font-size: 62.5%; /*sets the base font-size(rem) to 10px so .1rem = 1px*/
     margin: 0;
     box-sizing: border-box;
+    color: hsl(241, 100%, 89%);
 }
 
 .panel {
@@ -28,19 +29,20 @@ html, body {
 #result_score {
     width: 14rem;
     height: 14rem;
-    margin: 2rem;
+    margin: 0 auto;
     border-radius: 50%;
     background-color:hsla(256, 72%, 46%, 1); 
 }
 
 #result_score h3 {
-    font-size: 2rem;
-    color:aquamarine;    
+    font-size: 4.5rem;
+    line-height: 3rem;
+    padding-top: 5rem;
+    color:hsl(241, 100%, 89%);    
 }
 
-#total_score {
-    font-size: 3rem;
-    font-weight: 2rem;    
+.summary h2 {
+    color: hsl(224, 30%, 27%);
 }
 
 .summary_group {
