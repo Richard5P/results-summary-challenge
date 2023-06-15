@@ -17,9 +17,30 @@ html, body {
     height: 26rem;
     margin: 0 auto;
     border-radius: 1.2rem;
-    background-color: rgba(0, 162, 255, 0.141);
-    padding: 2rem;
+    background-color: #00a2ff24;
+    padding: 2rem; /* Adds padding between contents of section and border of section */
     text-align: center;
+}
+#result{
+    background-color:hsla(256, 72%, 52%, 1); 
+}
+
+#result_score {
+    width: 14rem;
+    height: 14rem;
+    margin: 2rem;
+    border-radius: 50%;
+    background-color:hsla(256, 72%, 46%, 1); 
+}
+
+#result_score h3 {
+    font-size: 2rem;
+    color:aquamarine;    
+}
+
+#total_score {
+    font-size: 3rem;
+    font-weight: 2rem;    
 }
 
 .summary_group {
