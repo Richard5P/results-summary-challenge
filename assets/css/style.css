@@ -4,6 +4,11 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
+.panel {
+    border-radius: 1.2rem;
+    background-color: rgba(0, 162, 255, 0.141);
+}
+
 .summary_group {
     padding: 0 50px;
     display: grid;
