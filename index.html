@@ -8,33 +8,40 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css" <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+ 
 </head>
 
 <body>
   <main>
-    <section class = "result"> <!-- Result Card -->
-      <p>Your Result</p>
-      <div> <!-- Result Circle-->
-        <h1>76</h1>
-        <p>of 100</p>
-      </div> <!-- /Result Circle-->
-      <h2>Great</h2>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </section> <!-- /Result Card -->
+    <section id="result" class="panel"> <!-- Result Panel-->
 
-    <section class = "summary"> <!-- Summary Card -->
+      <div id="result_hdg"> <!--result panel heading-->
+        Your Result
+      </div> <!--/result panel heading-->
+
+      <div id="result_score"> <!--circle container with result score-->
+        <h3> <!-- total result score -->
+          76
+        </h3><!-- /total result score -->
+        <p>
+          of 100
+        </p>
+
+      </div> <!--/circle container with result score-->
+
+      <div id="result_feedback"> <!--result feedback-->
+        <h2>
+          Great
+        </h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+
+      </div> <!--/result feedback-->
+
+    </section> <!-- /Result Panel-->
+
+    <section class = "panel summary"> <!-- Summary Panel -->
       <h2>Summary</h2>
 
       <div class = "summary_group"> <!--Reaction Result-->
@@ -69,7 +76,7 @@
         Continue
       </button>
 
-    </section> <!-- /Summary Card -->
+    </section> <!-- /Summary Panel -->
 
   </main>
 

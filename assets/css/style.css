@@ -1,11 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800');
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
 
-body {
+/* housekeeping and variables */
+
+html, body {
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 62.5%; /*sets the base font-size(rem) to 10px so .1rem = 1px*/
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(241, 100%, 89%);
+}
+
+.panel {
+    width: 18rem;
+    height: 26rem;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    background-color: #00a2ff24;
+    padding: 2rem; /* Adds padding between contents of section and border of section */
+    text-align: center;
+}
+
+#result{
+    background-color:hsla(256, 72%, 52%, 1); 
+}
+
+#result_hdg {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#result_score {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem auto; 
+    text-align: center;
+    border-radius: 50%;
+    background-color:hsla(256, 72%, 46%, 1); 
+}
+
+#result_score h3 {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.summary h2 {
+    color: hsl(224, 30%, 27%);
 }
 
 .summary_group {
-    padding: 0 50px;
+    padding: .05rem 0;
     display: grid;
     grid-template-columns: 50px 1fr 2em 4em;
+}
+
+/*  From FrontEnd Mentor */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
