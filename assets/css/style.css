@@ -8,7 +8,8 @@
 html, body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 62.5%; /*sets the base font-size(rem) to 10px so .1rem = 1px*/
-    margin: 0;
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
     color: hsl(241, 100%, 89%);
 }
@@ -22,23 +23,28 @@ html, body {
     padding: 2rem; /* Adds padding between contents of section and border of section */
     text-align: center;
 }
+
 #result{
     background-color:hsla(256, 72%, 52%, 1); 
 }
 
 #result_score {
-    width: 14rem;
-    height: 14rem;
-    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.5rem auto 0; 
+    text-align: center;
     border-radius: 50%;
     background-color:hsla(256, 72%, 46%, 1); 
 }
 
+#result_score p {
+    padding: 20rems;
+}
+
 #result_score h3 {
     font-size: 4.5rem;
-    line-height: 3rem;
-    padding-top: 5rem;
-    color:hsl(241, 100%, 89%);    
+    line-height: 10rem;
+    color: hsl(0, 0%, 100%);
 }
 
 .summary h2 {
