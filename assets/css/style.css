@@ -29,21 +29,19 @@ html, body {
 }
 
 #result_score {
-    width: 10rem;
-    height: 10rem;
-    margin: 0.5rem auto 0; 
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem auto; 
     text-align: center;
     border-radius: 50%;
     background-color:hsla(256, 72%, 46%, 1); 
 }
 
-#result_score p {
-    padding: 20rems;
-}
-
 #result_score h3 {
-    font-size: 4.5rem;
-    line-height: 10rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 0 auto;
+    padding-top: 2rem;
     color: hsl(0, 0%, 100%);
 }
 
