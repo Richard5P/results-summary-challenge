@@ -28,6 +28,11 @@ html, body {
     background-color:hsla(256, 72%, 52%, 1); 
 }
 
+#result_hdg {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
 #result_score {
     width: 8rem;
     height: 8rem;
