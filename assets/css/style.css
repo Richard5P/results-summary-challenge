@@ -25,7 +25,7 @@ html, body {
 }
 
 #result{
-    background-color:hsla(256, 72%, 52%, 1); 
+    float: left;
 }
 
 #result_hdg {
@@ -48,6 +48,10 @@ html, body {
     margin: 0 auto;
     padding-top: 2rem;
     color: hsl(0, 0%, 100%);
+}
+
+#summary {
+    float: right;
 }
 
 .summary h2 {
