@@ -26,7 +26,16 @@ html, body {
 
 #result{
     float: left;
+    margin-left: 54rem;
+    margin-right:0;
 }
+
+#summary {
+    float: right;
+    margin-right: 54rem;
+    margin-left: 0;
+}
+
 
 #result_hdg {
     font-size: 1rem;
@@ -48,10 +57,6 @@ html, body {
     margin: 0 auto;
     padding-top: 2rem;
     color: hsl(0, 0%, 100%);
-}
-
-#summary {
-    float: right;
 }
 
 .summary h2 {
