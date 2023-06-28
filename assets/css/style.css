@@ -29,8 +29,9 @@ html, body {
 }
 
 #result_hdg {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 800;
+    margin: 1.25rem 0 0 0;
 }
 
 #result_score {
@@ -50,15 +51,73 @@ html, body {
     color: hsl(0, 0%, 100%);
 }
 
-.summary h2 {
+.summary {
+    background-color: white;
+}
+
+#summary_grid {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 17rem;
+    grid-template-rows: repeat(6,3.8rem);
+    grid-gap: .85rem; 
+}
+
+#sum_hdg {
+    font-size: 1.8em;
+    font-weight: 900;
     color: hsl(224, 30%, 27%);
+    justify-self: start;
+    align-self: self-end;
 }
 
 .summary_group {
+    font-size: 1.55em;
+    font-weight: bold;
     padding: .05rem 0;
     display: grid;
-    grid-template-columns: 50px 1fr 2em 4em;
+    grid-template-columns: 3rem 1fr 2em 4em;
+    grid-template-rows: repeat(4, 3.1rem);
+    width: 18rem;
+    height: 3.8rem;
+    border-radius: 1.25rem;
+    align-items: center;
 }
+
+.summary_group img {
+    justify-self: center;
+}
+
+.sum_title {
+    justify-self: start;
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, 0.186);
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    background-color: hsla(39, 100%, 56%, 0.186);
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 0.186);
+    color:hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 0.186);
+    color:hsl(234, 85%, 45%);
+}
+
+.continue {
+    background-color: hsl(224, 30%, 27%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+}
+
 
 /*  From FrontEnd Mentor */
 

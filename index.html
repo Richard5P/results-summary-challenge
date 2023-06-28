@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css" <title>Frontend Mentor | Results summary component</title>
- 
+
 </head>
 
 <body>
@@ -41,40 +41,46 @@
 
     </section> <!-- /Result Panel-->
 
-    <section class = "panel summary"> <!-- Summary Panel -->
-      <h2>Summary</h2>
+    <section class="panel summary"> <!-- Summary Panel -->
 
-      <div class = "summary_group"> <!--Reaction Result-->
-        <img src="./assets/images/icon-reaction.svg" alt="Reaction heading icon">
-        <div>Reaction</div>
-        <div>80</div>
-        <div>/100</div>
-      </div> <!--/Reaction Result-->
+      <div id="summary_grid"> <!--Summary Grid-->
+        <div id="sum_hdg">
+          Summary
+        </div>
 
-      <div class = "summary_group"> <!--Memory Result-->
-        <img src="./assets/images/icon-memory.svg" alt="Memory heading icon">
-        <div>Memory</div>
-        <div>92</div>
-        <div>/100</div>
-      </div> <!--/Memory Result-->
+        <div id="reaction" class = "summary_group"> <!--Reaction Result-->
+          <img src="./assets/images/icon-reaction.svg" alt="Reaction heading icon">
+          <div class = "sum_title">Reaction</div>
+          <div>80</div>
+          <div>/100</div>
+        </div> <!--/Reaction Result-->
+  
+        <div id="memory" class = "summary_group"> <!--Memory Result-->
+          <img src="./assets/images/icon-memory.svg" alt="Memory heading icon">
+          <div class = "sum_title">Memory</div>
+          <div>92</div>
+          <div>/100</div>
+        </div> <!--/Memory Result-->
+  
+        <div id="verbal" class = "summary_group"> <!--Verbal Result-->
+          <img src="./assets/images/icon-verbal.svg" alt="Verbal heading icon">
+          <div class = "sum_title">Verbal</div>
+          <div>61</div>
+          <div>/100</div>
+        </div> <!--/Verbal Result-->
+  
+        <div id="visual" class = "summary_group"> <!--Visual Result-->
+          <img src="./assets/images/icon-visual.svg" alt="Visual heading icon">
+          <div class = "sum_title">Visual</div>
+          <div>72</div>
+          <div>/100</div>
+        </div> <!--/Visual Result-->
 
-      <div class = "summary_group"> <!--Verbal Result-->
-        <img src="./assets/images/icon-verbal.svg" alt="Verbal heading icon">
-        <div>Verbal</div>
-        <div>61</div>
-        <div>/100</div>
-      </div> <!--/Verbal Result-->
-
-      <div class = "summary_group"> <!--Visual Result-->
-        <img src="./assets/images/icon-visual.svg" alt="Visual heading icon">
-        <div>Visual</div>
-        <div>72</div>
-        <div>/100</div>
-      </div> <!--/Visual Result-->
-
-      <button class="continue" type="button">
-        Continue
-      </button>
+        <button class="continue" type="button">
+          Continue
+        </button>
+  
+      </div> <!--/Summery Grid-->
 
     </section> <!-- /Summary Panel -->
 
